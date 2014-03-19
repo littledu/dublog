@@ -1,0 +1,43 @@
+{
+  "name": "dublog",
+  "version": "0.0.6",
+  "description": "基于Node.js的静态博客程序",
+  "dependencies": {
+    "marked": ">=0.2.9",
+    "moment": ">=2.1.0",
+    "ejs": ">=0.8.4",
+    "ncp": ">=0.4.2",
+    "connect": ">=2.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "bin": {
+    "dublog-init": "./bin/dublog-init.js",
+    "dublog-build": "./bin/dublog-build.js",
+    "dublog-server": "./bin/dublog-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/littledu/dublog.git"
+  },
+  "keywords": [
+    "blog",
+    "dublog",
+    "node"
+  ],
+  "author": {
+    "name": "littledu"
+  },
+  "license": "MIT",
+  "readme": "# dublog 是一个由Node构建的静态博客\n\n",
+  "readmeFilename": "README.md",
+  "_id": "dublog@0.0.2",
+  "_from": "dublog@",
+  "bugs": {
+    "url": "https://github.com/littledu/dublog/issues"
+  },
+  "dist": {
+    "shasum": "a348f2fe14fef32471b3847e7d9d8c1e325d508b"
+  },
+  "_resolved": "https://registry.npmjs.org/dublog/-/dublog-0.0.2.tgz"
+}

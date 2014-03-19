@@ -16,7 +16,9 @@
             <p class="lead">学习·记录</p>
             <div class="colophon">
                 <ul class="colophon-links">
-                    <li><a href=""></a></li>
+                    <% pages.forEach(function(pa){ %>
+                    <li><a href="<%= pa.link %>"><%= pa.title %></a></li>
+                    <% }); %>
                 </ul>
                 <p class="poweredby">Proudly powered by <a href="https://github.com/littledu/dublog" target="_blank">dublog</a>&nbsp;<a href="./rss/rss.xml" target="_blank"></a></p>
                 <p class="poweredby">Themes modified from <a href="https://github.com/mdo/hyde" target="_blank">hyde</a></p>

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var connect = require('connect'),
     root = process.cwd(),
     config = require(root + '/config.json');

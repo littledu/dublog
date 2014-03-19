@@ -1,6 +1,10 @@
-> **github** 是一个共享虚拟主机服务，用于存放使用 `Git` 版本控制的软件代码和内容项目。它由GitHub公司（曾称Logical Awesome）的开发者Chris Wanstrath、PJ Hyett和Tom Preston-Werner使用Ruby on Rails编写而成。-- 维基百科  
+<{
+"title": "github的使用",
+"postedOn": "2014-03-17 19:46:16",
+"excerpt": "github 是一个共享虚拟主机服务，用于存放使用 Git 版本控制的软件代码和内容项目。它由GitHub公司（曾称Logical Awesome）的开发者Chris Wanstrath、PJ Hyett和Tom Preston-Werner使用Ruby on Rails编写而成。-- 维基百科" 
+}>
 
-<!-- $$solo_more$$-->
+> **github** 是一个共享虚拟主机服务，用于存放使用 `Git` 版本控制的软件代码和内容项目。它由GitHub公司（曾称Logical Awesome）的开发者Chris Wanstrath、PJ Hyett和Tom Preston-Werner使用Ruby on Rails编写而成。-- 维基百科  
 
 下面，记录下 github 的使用方法：
 
