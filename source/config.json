@@ -3,6 +3,5 @@
     "subtitle": "学习·记录",
     "keywords": "littledu,javascript,css,node,dublog,Blog,博客",
     "description": "littledu - 好男人",
-    "reverse" : true,
     "distPath": "dist"
 }

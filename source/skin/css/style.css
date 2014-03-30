@@ -117,14 +117,10 @@ code {
 
 pre {
     display: block;
-    margin: 0 0 14px 0;
-    padding: 15px 20px;
-    line-height: 28px;
     white-space: pre;
     white-space: pre-wrap;
     word-break: break-all;
     word-wrap: break-word;
-    background-color: #eee;
 }
 pre code {
     padding: 0;
@@ -139,6 +135,12 @@ pre code {
 }
 .highlight pre {
     margin-bottom: 0;
+}
+pre.prettyprint{
+    font-size: 14px;
+}
+.post ol.linenums{
+    padding-left: 40px;
 }
 
 /* Quotes */

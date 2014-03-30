@@ -15,10 +15,10 @@
 ## 下载安装git
 
 点击 [这里](http://git-scm.com/downloads) 下载最新版的git，一步步安装后设置注册github时的 `用户名` 和 `邮箱` ，如下：  
-
-    git config --global user.name "Your name here"
-    git config --global user.emil "email@example.com"
-
+``` bash
+git config --global user.name "Your name here"
+git config --global user.emil "email@example.com"
+```
 ## 创建 repository  
 1. 点击 [New Repository](https://github.com/repositories/new)
 2. 填写相关信息  
