@@ -1,5 +1,6 @@
 <{
 "title": "关于dublog",
+"id": "about-dublog",
 "postedOn": "2014-03-19 11:14:10" ,
 "excerpt": "一直以来，我都想拥有完全属于自己打造的一个博客"
 }>

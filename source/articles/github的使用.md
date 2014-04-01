@@ -30,7 +30,7 @@ git config --global user.emil "email@example.com"
 
 1. 打开 git bash 进入所要提交的目录里(cd dir)  
 2. 执行 git init 进行初始化，生成一个隐藏的.git文件夹  
-3. 添加要 push 的文件，如 git add README ， git add -all
+3. 添加要 push 的文件，如 git add README ， git add --all
 4. 接着输入 push 的相关说明： git commit -m 'first commit'
 5. 连接repo地址： git remote add origin https://github.com/username/Hello-Github.git
 6. 最后一步，推送： git push origin master ，如果是分支则修改 `master` 即可
@@ -42,7 +42,7 @@ Github Page 是 github提供的一个服务，可以让我们为项目建立 `�
 1. 创建一个 repository ，注意名字要用 username.github.io
 2. 克隆到本地： git clone https://github.com/username/username.github.io
 3. 进入本地目录： cd username.github.io
-4. git add -all
+4. git add --all
 5. git commit -m 'Initial commit'
 6. git push
 

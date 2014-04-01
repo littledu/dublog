@@ -9,5 +9,17 @@
             </div>
             <% }); %>
         </div>
+        <div class="pagination">
+            <% for(var i = 1; i <= pageNum; i++){ %>
+                <% 
+                var str = (i === 1 ? '/index.html' : '/index_' + i + '.html'); 
+                %>
+                <% if(pageCur == i){ %>
+                <span><%- i %></span>
+                <% }else{ %>
+                <a href="<%- str %>"><%- i %></a>
+                <% } %>
+            <% } %>
+        </div>
     </div>
 <% include includes/footer %>

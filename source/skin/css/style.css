@@ -251,22 +251,18 @@ a:hover {
     margin-top:40px;
     font-weight:700;
     color:#ccc;
-    text-align:center;
-    border-top:1px solid #eee
+    text-align:right;
 }
 .pagination a,.pagination span{
-    float:left;
-    width:50%;
+    display: inline-block;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;
-    padding:20px;
+    padding:10px 20px;
     color: #454441;
+    border:1px solid #eee;
 }
-.pagination a:first-child,.pagination span:first-child{
-    border-right:1px solid #eee
-}
-.pagination a:hover{
+.pagination a:hover, .pagination span{
     text-decoration:none;background-color:#f5f5f5
 }
 
@@ -343,7 +339,6 @@ a:hover {
     /* Make pagination stand alone */
     .pagination {
         margin-bottom: 60px;
-        border: 1px solid #eee;
     }
 
 }
