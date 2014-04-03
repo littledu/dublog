@@ -1,6 +1,6 @@
 {
   "name": "dublog",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "基于Node.js的静态博客程序",
   "dependencies": {
     "marked": ">=0.2.9",
@@ -28,7 +28,7 @@
     "name": "littledu"
   },
   "license": "MIT",
-  "readme": "# dublog 是一个由Node构建的静态博客\n\n",
+  "readme": "# dublog 是一个由Node构建的静态博客",
   "readmeFilename": "README.md",
   "_id": "dublog@0.0.7",
   "_from": "dublog@0.0.7",
